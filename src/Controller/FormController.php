@@ -18,5 +18,4 @@ class FormController extends AbstractController
             'form' => $form->createView()
         ]);
     }
-
 }

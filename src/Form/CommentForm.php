@@ -22,13 +22,13 @@ class CommentForm extends AbstractType
                 'label' => $this->translator->trans('comment-form-first-name'),
                 ])
             ->add('lastname',textType::class,[
-                'label' => $this->translator->trans('comment-form-lastname-name'),
+                'label' => $this->translator->trans('comment-form-last-name'),
                 ])
             ->add('description',textType::class,[
-                'label' => $this->translator->trans('comment-form-description-name'),
+                'label' => $this->translator->trans('comment-form-description'),
                 ])
             ->add('submit',textType::class,[
-                'label' => $this->translator->trans('comment-form-submit-name'),
+                'label' => $this->translator->trans('comment-form-submit'),
                 ]);
     }
 }
